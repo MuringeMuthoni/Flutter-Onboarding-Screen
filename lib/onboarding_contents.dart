@@ -11,20 +11,20 @@ class OnboardingContents {
 
 List<OnboardingContents> contents = [
   OnboardingContents(
-    title: "Track Your work and get the result",
-    image: "assets/images/image1.png",
-    desc: "Remember to keep track of your professional accomplishments.",
+    title: "Welcome to H&S Microfinance",
+    image: "assets/images/cash-loans.svg",
+    desc: "Let's take you through the app",
   ),
   OnboardingContents(
-    title: "Stay organized with team",
-    image: "assets/images/image2.png",
+    title: "Get loans instantly",
+    image: "assets/images/getloansintantly.gif",
     desc:
-        "But understanding the contributions our colleagues make to our teams and companies.",
+        "Get loans at the tap of a button.",
   ),
   OnboardingContents(
-    title: "Get notified when work happens",
-    image: "assets/images/image3.png",
+    title: "You also get to invest with us ",
+    image: "assets/images/letsdivein.gif",
     desc:
-        "Take control of notifications, collaborate live or on your own time.",
+        "Let's dive right in .",
   ),
 ];
