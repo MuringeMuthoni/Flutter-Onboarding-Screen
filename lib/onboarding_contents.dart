@@ -12,7 +12,7 @@ class OnboardingContents {
 List<OnboardingContents> contents = [
   OnboardingContents(
     title: "Welcome to H&S Microfinance",
-    image: "assets/images/WhatsApp-Image-2022-03-16-at-10.13.35-AM.png",
+    image: "assets/images/welcomehands.gif",
     desc: "Let's take you through the app",
   ),
   OnboardingContents(

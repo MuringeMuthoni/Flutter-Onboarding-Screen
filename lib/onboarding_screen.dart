@@ -12,7 +12,7 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
-  List colors = [Color(0xFF9F31E9), Color(0xFF9337E9), Color(0xFF9348DA)];
+  List colors = [Color(0xFF4A0677), Color(0xFF5C08AC), Color(0xFF9348DA)];
 
   AnimatedContainer _buildDots({int? index}) {
     return AnimatedContainer(
@@ -21,7 +21,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         borderRadius: BorderRadius.all(
           Radius.circular(50),
         ),
-        color: const Color(0xFFF8F2F2),
+        color: const Color(0xFF47D9EC),
       ),
       margin: const EdgeInsets.only(right: 5),
       height: 10,
