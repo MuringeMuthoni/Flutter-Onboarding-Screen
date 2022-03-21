@@ -12,7 +12,7 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
-  List colors = [Color(0xffDAD3C8), Color(0xffFFE5DE), Color(0xffDCF6E6)];
+  List colors = [Color(0xFF9F31E9), Color(0xFF9337E9), Color(0xFF9348DA)];
 
   AnimatedContainer _buildDots({int? index}) {
     return AnimatedContainer(
@@ -21,7 +21,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         borderRadius: BorderRadius.all(
           Radius.circular(50),
         ),
-        color: const Color(0xFF000000),
+        color: const Color(0xFFF8F2F2),
       ),
       margin: const EdgeInsets.only(right: 5),
       height: 10,
@@ -69,7 +69,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             style: TextStyle(
                               fontFamily: "Mulish",
                               fontWeight: FontWeight.w600,
-                              fontSize: (width <= 550) ? 30 : 35,
+                              fontSize: (width <= 850) ? 30 : 35,
                             ),
                           ),
                           SizedBox(
@@ -80,7 +80,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             style: TextStyle(
                               fontFamily: "Mulish",
                               fontWeight: FontWeight.w300,
-                              fontSize: (width <= 550) ? 17 : 25,
+                              fontSize: (width <= 850) ? 17 : 25,
                             ),
                             textAlign: TextAlign.center,
                           )
