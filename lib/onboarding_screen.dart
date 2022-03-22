@@ -12,7 +12,11 @@ class OnboardingScreen extends StatefulWidget {
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
-  List colors = [Color(0xFF4A0677), Color(0xFF5C08AC), Color(0xFF9348DA)];
+  List colors = [
+    Color.fromARGB(255, 146, 5, 240),
+    Color.fromARGB(255, 125, 11, 231),
+    Color(0xFF9348DA)
+  ];
 
   AnimatedContainer _buildDots({int? index}) {
     return AnimatedContainer(
